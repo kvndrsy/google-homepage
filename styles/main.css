@@ -1,0 +1,106 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+header {
+    height: 40px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+header section {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#header-left {
+    float: left;
+}
+
+#header-left a {
+    padding-left: 18px;
+}
+
+#header-right {
+    float: right;
+}
+
+#header-right a {
+    padding-right: 18px;
+}
+
+header a {
+    color: #000;
+}
+
+main {
+    position: relative;
+    top: 120px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+form {
+    display: inline-block;
+}
+
+input[name="q"] {
+    font-size: 16px;
+    display: block;
+    width: 400px;
+    margin: 20px 0;
+}
+
+input[type="submit"] {
+    color: rgb(34,34,34);
+    font-size: 14px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer section {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#footer-left {
+    float: left;
+}
+
+#footer-left a {
+    padding-left: 27px;
+}
+
+#footer-right {
+    float: right;
+}
+
+#footer-right a {
+    padding-right: 27px;
+}
+
+footer a {
+    color: rgb(95, 99, 104);
+}
